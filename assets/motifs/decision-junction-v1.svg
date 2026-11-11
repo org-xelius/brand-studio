@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" role="img" aria-labelledby="decision-junction-v1-title decision-junction-v1-desc">
+  <title id="decision-junction-v1-title">Decision junction</title>
+  <desc id="decision-junction-v1-desc">A source path branches to two equal destinations without invented scores.</desc>
+  <g id="decision-junction-v1-geometry" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><path d="M152 300 H400 M500 300 H668 V144 H844 M668 300 V456 H844"/><path d="M400 300 L450 250 L500 300 L450 350 Z"/><circle cx="120" cy="300" r="32"/><rect x="844" y="112" width="64" height="64" rx="8"/><rect x="844" y="424" width="64" height="64" rx="8"/></g>
+</svg>

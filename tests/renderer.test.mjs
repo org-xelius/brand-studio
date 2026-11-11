@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {build} from 'esbuild';
+const bundled=await build({entryPoints:[new URL('../src/poster-renderer.js',import.meta.url).pathname],bundle:true,write:false,format:'esm',loader:{'.woff2':'dataurl'}});
+const {resolveOptions,resolvePalette,contrast,RECIPES,VOICES}=await import('data:text/javascript;base64,'+Buffer.from(bundled.outputFiles[0].text).toString('base64'));
+test('preserves three named recipe families and three real type voices',()=>{assert.deepEqual(RECIPES.map(x=>x.id),['hero','showcase','editorial']);assert.deepEqual(VOICES.map(x=>x.id),['studio','impact','clean']);});
+test('bounds local controls and applies only matching format overrides',()=>{const o=resolveOptions({brandKit:{voice:'impact'}},{format:'story',poster:{version:2,scale:100,heroScale:0,cropX:-2,cropY:20,formats:{square:{recipe:'editorial'},story:{recipe:'showcase'}}}});assert.equal(o.scale,1.15);assert.equal(o.heroScale,.8);assert.equal(o.cropX,0);assert.equal(o.cropY,1);assert.equal(o.recipe,'showcase');assert.equal(o.voice,'impact');assert.equal(o.formats,undefined);});
+test('semantic roles use company accent, ink and paper; text is contrast selected',()=>{const company={color:'#f4652b',brandKit:{ink:'#171717',paper:'#f7f5ef'}};for(const treatment of ['brand','light','dark']){const p=resolvePalette(company,{treatment});assert.equal(p.accent,company.color);assert.ok(contrast(p.field,p.text)>4.5);assert.ok(contrast(p.action,p.actionText)>4.5);}assert.equal(resolvePalette(company,{treatment:'brand'}).field,company.color);});
+const fontBundle=await build({entryPoints:[new URL('../src/fonts.js',import.meta.url).pathname],bundle:true,write:false,format:'esm',loader:{'.woff2':'dataurl'}});
+const {unsupportedCharacters}=await import('data:text/javascript;base64,'+Buffer.from(fontBundle.outputFiles[0].text).toString('base64'));
+test('verified font cmap rejects absent punctuation instead of falling back',()=>{for(const c of ['\u2010','\u2011','\u2012','\u2015','\u201b'])assert.deepEqual(unsupportedCharacters('Cost'+c+'effective'),[c]);assert.deepEqual(unsupportedCharacters('Cost–effective — “clear” € © ®'),[]);assert.ok(unsupportedCharacters('日本語').length);});
+test('invalid colours never propagate to Canvas state',()=>{const p=resolvePalette({color:'not a color',brandKit:{ink:'bad',paper:''}},{treatment:'brand'});assert.equal(p.field,'#f4652b');assert.equal(p.ink,'#171717');});

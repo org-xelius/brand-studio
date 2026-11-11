@@ -1,0 +1,22 @@
+{
+  "description": "Frozen original v3 kernels and native halo evidence before compiler2/UI0.4 changes.",
+  "hashes": {
+    "src/poster-renderer-v3.js": "e157313ca55f0f4235e31bda16d0e55a4bdceaf9338e31de743d164e72f5ebbb",
+    "src/fonts-v3.js": "75b4e3f1bc309b4cf1db874d413ae4715bc0b921b5333ffd9c163aef4a41b7f1",
+    "src/font-passports-v3.js": "a959171cb85ca240f00fd1e80a30d120b609d417f3645455fd177ad5d8927d3f",
+    "output/playwright/v3-ui/ui-imported-reviewed.png": "7ec40cd4eaab99dca7cae50f0af6655dcf6c5650220042985e447894bb100bc7",
+    "output/playwright/v3-ui/ui-render-receipt.json": "4c38282480b124c8720ff126c394aa4c995c109081590b996ebcbaa8e7984f37",
+    "output/playwright/v3-renderer/hero-square.png": "00f8b465eca8c6c8cf9cc1304792449c4f3141dc00bd5d53445a56e230b6e4ea",
+    "output/playwright/v3-renderer/hero-portrait.png": "2dcc7067366c6d5d3714107e3cd02b85d44865c90c8b71496ddb2bee2b04c0ea",
+    "output/playwright/v3-renderer/hero-story.png": "d295ebb40ddf6a799ad25bab616eca56ff60fb79cb257d4f371362b53d0f4a17",
+    "output/playwright/v3-renderer/hero-landscape.png": "fa1e486525a57e16a503f14bb76a022f743ace097e28a9c251af8252f69bf898",
+    "output/playwright/v3-renderer/showcase-square.png": "7bab90a115f32ccc3c00cc8f7d9724e62f860caee1dbd8ccb26848d1d1ed4a5b",
+    "output/playwright/v3-renderer/showcase-portrait.png": "fe955b754951e5f2b2570799e6933ad70362ccb47aa0628ef16dfdac3945ff1d",
+    "output/playwright/v3-renderer/showcase-story.png": "ab542f84b913ca44befb89d8b9b9a849d11e8cc7ddde9f048c1ad75776ad9b4e",
+    "output/playwright/v3-renderer/showcase-landscape.png": "447ac86c5984066624b1cc27e7a6dacf3a9ac5f124e8352d608fb719a309cea5",
+    "output/playwright/v3-renderer/editorial-square.png": "9271adc9062bf65d1bbcab7dcbf293263c1be7840044319189dcfbe2d925a300",
+    "output/playwright/v3-renderer/editorial-portrait.png": "40cca282fa4b6c475699b102a8e5d4a42cd4ca9f78e293338f625014d6f34fde",
+    "output/playwright/v3-renderer/editorial-story.png": "9dac5714614690bf74be8d2b6bc776aa00a0790e448412565f7067f398d37e98",
+    "output/playwright/v3-renderer/editorial-landscape.png": "75f8f3b8842fc2efd7de6ee28e4733d35f06870dd337022795a9093b77e1d297"
+  }
+}

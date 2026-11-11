@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build/test evidence: screenshots, QA ledgers, original customer imagery
+output/
+
+# Third-party poster references used for art direction only
+design-references/
+
+# Local agent tooling artifacts
+.impeccable/
+.agents/
+
+# OS / editor noise
+.DS_Store
+*.log
+.env
+.env.*

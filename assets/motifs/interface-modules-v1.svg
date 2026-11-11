@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" role="img" aria-labelledby="interface-modules-v1-title interface-modules-v1-desc">
+  <title id="interface-modules-v1-title">Interface modules</title>
+  <desc id="interface-modules-v1-desc">Three equal outlined conceptual system modules joined by short explicit ports, without faux interface chrome or text.</desc>
+  <g id="interface-modules-v1-geometry" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><rect x="96" y="190" width="224" height="220" rx="8"/><rect x="388" y="190" width="224" height="220" rx="8"/><rect x="680" y="190" width="224" height="220" rx="8"/><path d="M320 300 H388 M612 300 H680"/></g>
+</svg>

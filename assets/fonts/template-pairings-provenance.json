@@ -1,0 +1,503 @@
+{
+  "downloadedAt": "2026-11-11T11:37:40.239Z",
+  "license": "SIL OFL 1.1",
+  "runtimeNetwork": false,
+  "fonts": [
+    {
+      "id": "lora",
+      "file": "lora-latin-wght-normal.woff2",
+      "package": "@fontsource-variable/lora",
+      "version": "5.3.0",
+      "source": "https://cdn.jsdelivr.net/npm/@fontsource-variable/lora@5.3.0/files/lora-latin-wght-normal.woff2",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource-variable/lora@5.3.0/LICENSE",
+      "licenseFile": "lora-OFL.txt",
+      "licenseSha256": "948aed765160f7b974105606c21994715a171f89fca48e57bf1e0a23aca0bef1",
+      "mime": "font/woff2",
+      "bytes": 37788,
+      "sha256": "ddb8c66035104e233fc024669183aad3738b6daa16deee2ebb1241bd0f98ace1",
+      "coverage": [
+        [
+          13,
+          13
+        ],
+        [
+          32,
+          126
+        ],
+        [
+          160,
+          172
+        ],
+        [
+          174,
+          255
+        ],
+        [
+          258,
+          258
+        ],
+        [
+          305,
+          305
+        ],
+        [
+          338,
+          339
+        ],
+        [
+          699,
+          700
+        ],
+        [
+          710,
+          710
+        ],
+        [
+          730,
+          730
+        ],
+        [
+          732,
+          732
+        ],
+        [
+          768,
+          769
+        ],
+        [
+          771,
+          772
+        ],
+        [
+          776,
+          777
+        ],
+        [
+          803,
+          803
+        ],
+        [
+          8211,
+          8212
+        ],
+        [
+          8216,
+          8218
+        ],
+        [
+          8220,
+          8222
+        ],
+        [
+          8226,
+          8226
+        ],
+        [
+          8230,
+          8230
+        ],
+        [
+          8242,
+          8243
+        ],
+        [
+          8249,
+          8250
+        ],
+        [
+          8260,
+          8260
+        ],
+        [
+          8364,
+          8364
+        ],
+        [
+          8482,
+          8482
+        ],
+        [
+          8722,
+          8722
+        ],
+        [
+          8725,
+          8725
+        ]
+      ]
+    },
+    {
+      "id": "space-grotesk",
+      "file": "space-grotesk-latin-wght-normal.woff2",
+      "package": "@fontsource-variable/space-grotesk",
+      "version": "5.3.0",
+      "source": "https://cdn.jsdelivr.net/npm/@fontsource-variable/space-grotesk@5.3.0/files/space-grotesk-latin-wght-normal.woff2",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource-variable/space-grotesk@5.3.0/LICENSE",
+      "licenseFile": "space-grotesk-OFL.txt",
+      "licenseSha256": "18a4de52385f6b988782639d5d0cc1326e5a8c2de9a7f01d7b20d9aedcc60943",
+      "mime": "font/woff2",
+      "bytes": 22288,
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d",
+      "coverage": [
+        [
+          13,
+          13
+        ],
+        [
+          32,
+          126
+        ],
+        [
+          160,
+          255
+        ],
+        [
+          305,
+          305
+        ],
+        [
+          338,
+          339
+        ],
+        [
+          699,
+          700
+        ],
+        [
+          710,
+          710
+        ],
+        [
+          730,
+          730
+        ],
+        [
+          732,
+          732
+        ],
+        [
+          768,
+          769
+        ],
+        [
+          771,
+          772
+        ],
+        [
+          776,
+          777
+        ],
+        [
+          803,
+          803
+        ],
+        [
+          8201,
+          8201
+        ],
+        [
+          8203,
+          8203
+        ],
+        [
+          8211,
+          8212
+        ],
+        [
+          8216,
+          8218
+        ],
+        [
+          8220,
+          8222
+        ],
+        [
+          8226,
+          8226
+        ],
+        [
+          8230,
+          8230
+        ],
+        [
+          8242,
+          8243
+        ],
+        [
+          8249,
+          8250
+        ],
+        [
+          8260,
+          8260
+        ],
+        [
+          8364,
+          8364
+        ],
+        [
+          8482,
+          8482
+        ],
+        [
+          8593,
+          8593
+        ],
+        [
+          8595,
+          8595
+        ],
+        [
+          8722,
+          8722
+        ],
+        [
+          8725,
+          8725
+        ]
+      ]
+    },
+    {
+      "id": "dm-sans",
+      "file": "dm-sans-latin-wght-normal.woff2",
+      "package": "@fontsource-variable/dm-sans",
+      "version": "5.3.0",
+      "source": "https://cdn.jsdelivr.net/npm/@fontsource-variable/dm-sans@5.3.0/files/dm-sans-latin-wght-normal.woff2",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource-variable/dm-sans@5.3.0/LICENSE",
+      "licenseFile": "dm-sans-OFL.txt",
+      "licenseSha256": "6fbd040a29c2037a765dfb9f2561e9965b5c95c6dcb5dce516089d63d5f17af7",
+      "mime": "font/woff2",
+      "bytes": 36932,
+      "sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543",
+      "coverage": [
+        [
+          13,
+          13
+        ],
+        [
+          32,
+          126
+        ],
+        [
+          160,
+          172
+        ],
+        [
+          174,
+          255
+        ],
+        [
+          258,
+          258
+        ],
+        [
+          305,
+          305
+        ],
+        [
+          338,
+          339
+        ],
+        [
+          710,
+          710
+        ],
+        [
+          730,
+          730
+        ],
+        [
+          732,
+          732
+        ],
+        [
+          768,
+          769
+        ],
+        [
+          771,
+          772
+        ],
+        [
+          776,
+          776
+        ],
+        [
+          8211,
+          8212
+        ],
+        [
+          8216,
+          8218
+        ],
+        [
+          8220,
+          8222
+        ],
+        [
+          8226,
+          8226
+        ],
+        [
+          8230,
+          8230
+        ],
+        [
+          8249,
+          8250
+        ],
+        [
+          8260,
+          8260
+        ],
+        [
+          8364,
+          8364
+        ],
+        [
+          8482,
+          8482
+        ],
+        [
+          8593,
+          8593
+        ],
+        [
+          8595,
+          8595
+        ],
+        [
+          8722,
+          8722
+        ],
+        [
+          8725,
+          8725
+        ]
+      ]
+    },
+    {
+      "id": "oswald",
+      "file": "oswald-latin-wght-normal.woff2",
+      "package": "@fontsource-variable/oswald",
+      "version": "5.3.0",
+      "source": "https://cdn.jsdelivr.net/npm/@fontsource-variable/oswald@5.3.0/files/oswald-latin-wght-normal.woff2",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource-variable/oswald@5.3.0/LICENSE",
+      "licenseFile": "oswald-OFL.txt",
+      "licenseSha256": "23916cdee678823c3c517c699cb2e043088de0d46c959eeaa168b54bb84534df",
+      "mime": "font/woff2",
+      "bytes": 28488,
+      "sha256": "bd73278ee0c50041b91b4c03d1229e35b501637f46b6409e7da2d3a758446ea5",
+      "coverage": [
+        [
+          13,
+          13
+        ],
+        [
+          32,
+          126
+        ],
+        [
+          160,
+          172
+        ],
+        [
+          174,
+          255
+        ],
+        [
+          258,
+          258
+        ],
+        [
+          305,
+          305
+        ],
+        [
+          338,
+          339
+        ],
+        [
+          699,
+          700
+        ],
+        [
+          710,
+          710
+        ],
+        [
+          730,
+          730
+        ],
+        [
+          732,
+          732
+        ],
+        [
+          768,
+          769
+        ],
+        [
+          771,
+          772
+        ],
+        [
+          776,
+          777
+        ],
+        [
+          803,
+          803
+        ],
+        [
+          8211,
+          8212
+        ],
+        [
+          8216,
+          8218
+        ],
+        [
+          8220,
+          8222
+        ],
+        [
+          8226,
+          8226
+        ],
+        [
+          8230,
+          8230
+        ],
+        [
+          8242,
+          8243
+        ],
+        [
+          8249,
+          8250
+        ],
+        [
+          8260,
+          8260
+        ],
+        [
+          8364,
+          8364
+        ],
+        [
+          8482,
+          8482
+        ],
+        [
+          8722,
+          8722
+        ],
+        [
+          8725,
+          8725
+        ]
+      ]
+    }
+  ]
+}

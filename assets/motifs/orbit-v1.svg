@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" role="img" aria-labelledby="orbit-v1-title orbit-v1-desc">
+  <title id="orbit-v1-title">Intersecting orbits</title>
+  <desc id="orbit-v1-desc">Three open orbital rings suggesting connected perspectives.</desc>
+  <g id="orbit-v1-geometry" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="500" cy="300" rx="390" ry="134" transform="rotate(-24 500 300)"/><ellipse cx="500" cy="300" rx="330" ry="190" transform="rotate(24 500 300)"/><circle cx="500" cy="300" r="40"/></g>
+</svg>

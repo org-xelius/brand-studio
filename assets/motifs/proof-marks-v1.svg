@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" role="img" aria-labelledby="proof-marks-v1-title proof-marks-v1-desc">
+  <title id="proof-marks-v1-title">Proof marks</title>
+  <desc id="proof-marks-v1-desc">Open crop corners and offset registration crosses expressing editorial craft, not approval or proof of a claim.</desc>
+  <g id="proof-marks-v1-geometry" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><path d="M272 118 H128 V256 M728 118 H872 V256 M128 354 V492 H272 M872 354 V492 H728 M446 240 H510 M478 208 V272 M530 328 H594 M562 296 V360"/></g>
+</svg>

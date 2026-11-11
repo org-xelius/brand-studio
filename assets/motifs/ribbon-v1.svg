@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" role="img" aria-labelledby="ribbon-v1-title ribbon-v1-desc">
+  <title id="ribbon-v1-title">Continuous ribbon</title>
+  <desc id="ribbon-v1-desc">An open folded ribbon suggesting creative continuity.</desc>
+  <g id="ribbon-v1-geometry" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><path d="M72 344 C170 100 294 100 374 290 S550 492 650 282 S806 104 928 190" stroke-width="48"/></g>
+</svg>

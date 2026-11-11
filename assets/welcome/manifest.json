@@ -1,0 +1,23 @@
+{
+  "id": "welcome-home-20261110-01",
+  "prompt": "Premium editorial studio still life for the welcome area of a professional brand design application. A sculptural, tactile arrangement of blank ivory print cards and folded paper planes, one translucent cobalt-blue acrylic slab and one warm orange material swatch, precise layered composition and beautiful restrained studio lighting, soft grounded shadows, subtle physical texture, cool pearl-neutral background. Objects concentrated in the right two-thirds, generous clean breathing space on the left and around all edges, wide horizontal composition, sophisticated macOS creative-tool sensibility, realistic materials not a UI mockup. No letters, no text, no typography, no logos, no screens, no people, no client brands, no charts, no symbols, no watermark. Decorative editorial illustration, not a real customer project.",
+  "promptSha256": "4357a707fe6c62bfc7bb302a3b77e7393bf537631ffd14468217aa7d98085a9f",
+  "parameters": {
+    "model": "gpt-image-2.6-flare",
+    "n": 1,
+    "size": "1536x1024",
+    "quality": "medium",
+    "output_format": "png",
+    "stream": false
+  },
+  "parametersSha256": "fac11f913a3214ce3b386e0726948e1153431987e421cc1e8a8fe8345710e519",
+  "requestSha256": "d1509a86fa3f0cd2e74d207fb54c009984968b1720f4140a76a0849c42aa5c4f",
+  "provider": "OpenAI",
+  "endpoint": "https://api.openai.com/v1/images/generations",
+  "label": "AI-generated editorial illustration",
+  "purpose": "company-agnostic welcome illustration",
+  "approvedBy": "explicit user selection; matching local approved.json",
+  "startedAt": "2026-11-10T18:45:40.526Z",
+  "maxAttempts": 1,
+  "retryPolicy": "never"
+}

@@ -1,0 +1,12 @@
+{
+  "purpose": "UI welcome illustration, not poster content",
+  "source": "hero.png",
+  "sourceSha256": "6f577b97d84c93abb5aa4dacd5fc4e7a25508dd9727f0f0eff62f8f54a538499",
+  "derivative": "hero.webp",
+  "sha256": "b6d03381a42e4b9519e39c0d1fbae610bb35674774f52609da47cf944ce75374",
+  "width": 1536,
+  "height": 1024,
+  "quality": 88,
+  "bytes": 82632,
+  "resize": false
+}

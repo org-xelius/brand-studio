@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" role="img" aria-labelledby="responsive-frames-v1-title responsive-frames-v1-desc">
+  <title id="responsive-frames-v1-title">Responsive frames</title>
+  <desc id="responsive-frames-v1-desc">Three nested device-independent frames expressing adaptable design.</desc>
+  <g id="responsive-frames-v1-geometry" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><rect x="98" y="110" width="700" height="370" rx="14"/><rect x="400" y="176" width="384" height="292" rx="12"/><rect x="728" y="244" width="174" height="246" rx="18"/><path d="M132 150 H356 M760 450 H870"/></g>
+</svg>

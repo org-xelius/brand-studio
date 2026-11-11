@@ -1,0 +1,4 @@
+- insert:
+    - id: brand-studio
+      name: '@local/brand-studio'
+      config: {}

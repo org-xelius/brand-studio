@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" role="img" aria-labelledby="research-folio-v1-title research-folio-v1-desc">
+  <title id="research-folio-v1-title">Research folio</title>
+  <desc id="research-folio-v1-desc">Overlapping document sheets and a magnifying lens representing inquiry, not a chart.</desc>
+  <g id="research-folio-v1-geometry" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><path d="M188 112 L604 76 L636 444 L220 480 Z M290 154 H710 V502 H290 Z M350 216 H598 M350 270 H550 M350 324 H472"/><circle cx="688" cy="370" r="106"/><path d="M764 446 L870 532"/></g>
+</svg>
