@@ -70,7 +70,7 @@ npm run test:ui:look        # isolated React/model/renderer UI acceptance (~2 mi
 npm run test:export:templates  # 80 native proofs + font matrix (needs source images, see below)
 ```
 
-Native and visual proofs need real source photographs that are deliberately **not** in this repository. Provide them by environment variable:
+Native proofs render real photographs that are deliberately **not** in this repository. Provide them by environment variable; the suite fails with a clear missing-source error instead of downloading anything:
 
 ```bash
 BS_TEMPLATE_SOURCE_A=/path/to/portrait-source.png \
@@ -80,11 +80,11 @@ npm run test:export:templates
 
 Optional: `BS_TEMPLATE_BROWSER_CHANNEL=chrome` to use an installed browser, and `TEMPLATE_DIAGNOSTIC=1` to print fit diagnostics without assertions.
 
-Tests write to `output/playwright/**`, which is ignored by git: those directories hold large screenshots and customer imagery and must not be committed.
+Tests write to `output/playwright/**`, which is ignored by git: those directories hold large screenshots and owner imagery and must not be committed.
 
 ## Visual QA
 
-`tests/collect-look-qa.mjs` and `tests/collect-look-ten-qa.mjs` assemble schema-validated QA reports from per-surface JSON ledgers. They require the local `visual-quality-assurance` skill helper; override its location with `QA_REPORT_HELPER=/path/to/qa-report.mjs`. Reviews are only valid when the recorded surface SHA-256 still matches the file.
+`tests/collect-look-ten-qa.mjs` assembles a schema-validated QA report from per-surface JSON ledgers. It requires the optional local `visual-quality-assurance` skill helper; point `QA_REPORT_HELPER` at its `qa-report.mjs`. A review only counts while the recorded surface SHA-256 still matches the file on disk.
 
 ## Safety rules to preserve
 

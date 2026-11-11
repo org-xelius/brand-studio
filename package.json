@@ -1,9 +1,9 @@
 {
   "name": "@local/brand-studio",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "A guided social design studio for companies, campaigns, and weekly creative work.",
+  "description": "A guided social design studio for companies, campaigns and weekly creative work.",
   "exports": {
     ".": "./host.js",
     "./client": "./client.js",
@@ -38,16 +38,11 @@
   "scripts": {
     "build": "node build.mjs",
     "test": "node --test *.test.js tests/renderer.test.mjs",
-    "test:visual": "node --test tests/renderer-visual.test.mjs",
-    "test:visual:v3": "node --test tests/renderer-v3.test.mjs",
-    "test:export": "node --test tests/renderer-crisp.test.mjs",
+    "check": "node --check index.js && node --check model.js && node --check poster-model.js && node --check composition-model.js && node --check motif-resources.js && node --check src/layout-kernel-flex.js && node --check template-model.js && node --check src/layout-kernel-template.js && node --check src/poster-renderer-template.js && node --check font-pairings.js && node --check src/fonts-template.js",
     "test:ui": "BS_LOOK_TEN_UI_READY=1 node tests/look-ten-ui.mjs",
-    "test:company-colors": "node --test company-colors.test.js tests/renderer-company-colors.test.mjs && node tests/company-colors-ui.mjs",
-    "test:export:flex": "node --test --test-concurrency=1 tests/renderer-flex*.test.mjs",
-    "test:ui:flex": "BS_LOOK_TEN_UI_READY=1 node tests/look-ten-ui.mjs",
-    "test:export:templates": "node --test --test-concurrency=1 tests/template-native.test.mjs",
     "test:ui:look": "BS_LOOK_TEN_UI_READY=1 node tests/look-ten-ui.mjs",
-    "check": "node --check index.js && node --check model.js && node --check poster-model.js && node --check composition-model.js && node --check motif-resources.js && node --check src/layout-kernel-flex.js && node --check template-model.js && node --check src/layout-kernel-template.js && node --check src/poster-renderer-template.js && node --check font-pairings.js && node --check src/fonts-template.js"
+    "test:export:templates": "node --test --test-concurrency=1 tests/template-native.test.mjs",
+    "test:company-colors": "node --test company-colors.test.js tests/renderer-company-colors.test.mjs && node tests/company-colors-ui.mjs"
   },
   "dependencies": {
     "zod": "^4.0.0"
@@ -74,5 +69,25 @@
         "@deepseek-ai/dsh-client-ui-sidebar"
       ]
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/org-xelius/brand-studio.git"
+  },
+  "homepage": "https://github.com/org-xelius/brand-studio#readme",
+  "bugs": {
+    "url": "https://github.com/org-xelius/brand-studio/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "brand-studio",
+    "social-media-design",
+    "poster-design",
+    "canvas",
+    "react",
+    "local-first",
+    "typography",
+    "design-tools"
+  ]
 }
